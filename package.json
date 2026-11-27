@@ -1,0 +1,10 @@
+{
+  "name": "faultlines",
+  "private": true,
+  "description": "FAULTLINES, a browser grand-strategy board game. No runtime dependencies.",
+  "scripts": {
+    "test": "node test/rules.test.js",
+    "start": "python3 -m http.server 8765",
+    "geography": "node tools/build-geography.js"
+  }
+}
